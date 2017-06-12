@@ -41,6 +41,23 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/signup_editFullName"
+                android:hint="Enter your Full Name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/signup_editPassword"
                 android:hint="Enter your password"
                 android:inputType="textPassword"
